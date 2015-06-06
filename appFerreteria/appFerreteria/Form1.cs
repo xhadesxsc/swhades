@@ -21,7 +21,7 @@ namespace appFerreteria
             int a = Convert.ToInt16(textBox1.Text);
             int b = Convert.ToInt16(textBox2.Text);
             
-            label1.Text = Convert.ToInt16(a + b).ToString();
+            label1.Text = Convert.ToInt16(a + b).ToString() + " recien afecta cambios";
         }
     }
 }
